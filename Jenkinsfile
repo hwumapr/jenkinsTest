@@ -4,6 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 sh 'mvn --version'
+                sh 'java -jar jenkinstest-1.0-SNAPSHOT.jar'
             }
         }
     }
