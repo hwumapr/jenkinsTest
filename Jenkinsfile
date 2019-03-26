@@ -5,7 +5,7 @@ pipeline {
         JANK_SECRET = credentials('SampleSecretText')
      }
      stages {
-         stage('test) {
+         stage('test') {
             steps{
                 sh 'mvn test'
             }
