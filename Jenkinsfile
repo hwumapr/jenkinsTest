@@ -1,23 +1,14 @@
 pipeline {
-    agent any
-
-    environment {
-        DISABLE_AUTH = 'true'
-        DB_ENGINE    = 'sqlite'
-    }
-
+    agent { docker { image 'maven:3.3.3' } }
     stages {
-        stage('Build') {
+        stage('build') {
             steps {
-                sh 'printenv'
+                sh 'mvn clean build'
             }
         }
-        stage('Meh'){
-            environment{
-                DISABLE_AUTH = 'false'
-            }
-            steps{
-                sh 'printenv'
+        stage('run') {
+            steps {
+                sh 'java -jar target/jenkinstest-1.0-SNAPSHOT-jar-with-dependencies.jar'
             }
         }
     }
