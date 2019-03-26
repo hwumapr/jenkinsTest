@@ -12,5 +12,13 @@ pipeline {
                 sh 'printenv'
             }
         }
+        stage('Meh'){
+            environment{
+                DISABLE_AUTH = 'false'
+            }
+            steps{
+                sh 'printenv'
+            }
+        }
     }
 }
