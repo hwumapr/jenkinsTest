@@ -12,7 +12,7 @@ pipeline {
          }
          stage('run') {
              steps {
-                 sh 'java -jar target/jenkinstest-1.0-SNAPSHOT-jar-with-dependencies.jar' $JANK_SECRET
+                 sh 'java -jar target/jenkinstest-1.0-SNAPSHOT-jar-with-dependencies.jar $JANK_SECRET'
              }
          }
      }
