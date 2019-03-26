@@ -9,6 +9,9 @@ public class helloworld {
             System.out.println("hello " + args[0]);
         }
 
+        if (args[0].equals("Poop")){
+            System.out.println("the secret was Poop");
+        }
         exit(0);
     }
 }
