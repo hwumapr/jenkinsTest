@@ -11,6 +11,7 @@ public class helloworld {
 
         if (args[0].equals("Poop")){
             System.out.println("the secret was Poop");
+            System.out.println("Partially censored secret: P*op");
         }
         exit(0);
     }
