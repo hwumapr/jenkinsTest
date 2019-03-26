@@ -7,12 +7,13 @@ public class helloworld {
 
         if (args.length >= 1) {
             System.out.println("hello " + args[0]);
+
+            if (args[0].equals("Poop")){
+                System.out.println("the secret was Poop");
+                System.out.println("Partially censored secret: P*op or poop (if case sensitive)");
+            }
         }
 
-        if (args[0].equals("Poop")){
-            System.out.println("the secret was Poop");
-            System.out.println("Partially censored secret: P*op or poop (if case sensitive)");
-        }
-        exit(0);
+        //exit(0);
     }
 }
