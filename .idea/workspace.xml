@@ -6,11 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fe12fb2-2ac8-46c2-ab14-d8c85176e337" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/hellotest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helloTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="3fe12fb2-2ac8-46c2-ab14-d8c85176e337" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,7 +71,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
+            <state relative-caret-position="273">
               <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <marker date="1553717934603" expanded="true" signature="445:2043" ph="..." />
@@ -337,7 +333,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553717955553" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553720155644" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -515,7 +511,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="27" y="23" width="1440" height="800" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -526,14 +521,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SBT Console" order="8" weight="0.32909605" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.25282487" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25282487" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32909605" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -650,7 +645,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
+        <state relative-caret-position="273">
           <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <marker date="1553717934603" expanded="true" signature="445:2043" ph="..." />
