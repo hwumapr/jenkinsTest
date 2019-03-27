@@ -1,4 +1,6 @@
+import org.hamcrest.CoreMatchers;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -11,7 +13,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThat;
 
 
-public class hellotest {
+public class helloTest {
 
     private final ByteArrayOutputStream outContent = new ByteArrayOutputStream();
     private final ByteArrayOutputStream errContent = new ByteArrayOutputStream();
@@ -23,6 +25,12 @@ public class hellotest {
         System.setOut(new PrintStream(outContent));
     }
 
+    @Test
+    public void sampleTest() throws IOException
+    {
+        assert(true);
+    }
+
 
     @Test
     public void testHelloMainPrintsSecretWithSecret() throws IOException {
@@ -32,9 +40,9 @@ public class hellotest {
         System.setOut(new PrintStream(new FileOutputStream(FileDescriptor.out)));
 
         System.out.println(outContent.toString());
-        assertThat(outContent.toString(), containsString("hello world!"));
+        Assert.assertThat(outContent.toString(), CoreMatchers.containsString("hello world!"));
 
-        assertThat(outContent.toString(), containsString("Poop"));
+        Assert.assertThat(outContent.toString(), CoreMatchers.containsString("Poop"));
 
     }
 
@@ -46,8 +54,8 @@ public class hellotest {
 
         System.out.println(outContent.toString());
 
-        assertThat(outContent.toString(), containsString("hello world!"));
-        assertThat(outContent.toString(), not(containsString("Poop")));
+        Assert.assertThat(outContent.toString(), CoreMatchers.containsString("hello world!"));
+        Assert.assertThat(outContent.toString(), CoreMatchers.not(CoreMatchers.containsString("Poop")));
 
 
     }

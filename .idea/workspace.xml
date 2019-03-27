@@ -8,7 +8,8 @@
   <component name="ChangeListManager">
     <list default="true" id="3fe12fb2-2ac8-46c2-ab14-d8c85176e337" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Jenkinsfile" beforeDir="false" afterPath="$PROJECT_DIR$/Jenkinsfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hellotest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/helloTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -33,17 +34,20 @@
         <counts>
           <entry key="Jenkinsfile" value="1" />
           <entry key="MF" value="4" />
+          <entry key="class" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="2" />
+          <entry key="lst" value="1" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="2" />
           <entry key="Manifest" value="4" />
-          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
@@ -51,28 +55,31 @@
         <counts>
           <entry key="Jenkinsfile" value="381" />
           <entry key="MF" value="26" />
-          <entry key="java" value="1061" />
-          <entry key="txt" value="22" />
-          <entry key="xml" value="124" />
+          <entry key="java" value="1157" />
+          <entry key="txt" value="221" />
+          <entry key="xml" value="323" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1061" />
+          <entry key="JAVA" value="1157" />
           <entry key="Manifest" value="26" />
-          <entry key="PLAIN_TEXT" value="403" />
-          <entry key="XML" value="124" />
+          <entry key="PLAIN_TEXT" value="602" />
+          <entry key="XML" value="323" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="232">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
+              <folding>
+                <marker date="1553717934603" expanded="true" signature="445:2043" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,11 +89,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Jenkinsfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="327">
-              <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+              <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -100,16 +107,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/helloworld.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="40" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="10" selection-end-column="40" />
+              <caret line="10" column="40" selection-start-line="7" selection-start-column="7" selection-end-line="10" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/hellotest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/helloTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+            <state relative-caret-position="494">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#612#613#0" expanded="true" />
@@ -150,6 +157,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>depend</find>
+      <find>packagin</find>
+      <find>test</find>
+      <find>proper</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,11 +171,18 @@
         <option value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
         <option value="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/hellotest.java" />
         <option value="$PROJECT_DIR$/src/main/java/helloworld.java" />
         <option value="$PROJECT_DIR$/Jenkinsfile" />
+        <option value="$PROJECT_DIR$/src/test/java/hellotest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="workOffline" value="true" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -189,8 +206,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="79" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="27" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="800" />
   </component>
@@ -302,6 +320,15 @@
               <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
               <item name="testCompile" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="jenkinstest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="jenkinstest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-status" type="462c0819:PsiDirectoryNode" />
+              <item name="maven-compiler-plugin" type="462c0819:PsiDirectoryNode" />
+              <item name="testCompile" type="462c0819:PsiDirectoryNode" />
+              <item name="default-testCompile" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -310,18 +337,21 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553629343207" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553717955553" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/main/java" />
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
@@ -337,29 +367,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.hellotest">
-    <configuration name="hellotest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.helloTest.sampleTest">
+    <configuration name="helloTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jenkinstest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="hellotest" />
+      <option name="MAIN_CLASS_NAME" value="helloTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hellotest.testHelloMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="helloTest.sampleTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jenkinstest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="hellotest" />
+      <option name="MAIN_CLASS_NAME" value="helloTest" />
+      <option name="METHOD_NAME" value="sampleTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="helloTest.testHelloMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="jenkinstest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="helloTest" />
       <option name="METHOD_NAME" value="testHelloMain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="hellotest.testHelloMainPrintsSecretWithSecret" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="helloTest.testHelloMainPrintsSecretWithSecret" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="jenkinstest" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="hellotest" />
+      <option name="MAIN_CLASS_NAME" value="helloTest" />
       <option name="METHOD_NAME" value="testHelloMainPrintsSecretWithSecret" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -368,10 +408,6 @@
     </configuration>
     <configuration name="jenkinstest-1.0-SNAPSHOT-jar-with-dependencies.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/jenkinstest-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-      <method v="2" />
-    </configuration>
-    <configuration name="jenkinstest-1.0-SNAPSHOT.jar" type="JarApplication" factoryName="JAR Application" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/target/jenkinstest-1.0-SNAPSHOT.jar" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
@@ -398,19 +434,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JAR Application.jenkinstest-1.0-SNAPSHOT.jar" />
       <item itemvalue="JAR Application.jenkinstest-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-      <item itemvalue="JUnit.hellotest.testHelloMain" />
-      <item itemvalue="JUnit.hellotest" />
-      <item itemvalue="JUnit.hellotest.testHelloMainPrintsSecretWithSecret" />
+      <item itemvalue="JUnit.helloTest.testHelloMain" />
+      <item itemvalue="JUnit.helloTest" />
+      <item itemvalue="JUnit.helloTest.testHelloMainPrintsSecretWithSecret" />
+      <item itemvalue="JUnit.helloTest.sampleTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.hellotest" />
-        <item itemvalue="JUnit.hellotest.testHelloMainPrintsSecretWithSecret" />
-        <item itemvalue="JUnit.hellotest.testHelloMain" />
+        <item itemvalue="JUnit.helloTest.sampleTest" />
+        <item itemvalue="JUnit.helloTest" />
+        <item itemvalue="JUnit.helloTest.testHelloMainPrintsSecretWithSecret" />
+        <item itemvalue="JUnit.helloTest.testHelloMain" />
         <item itemvalue="JAR Application.jenkinstest-1.0-SNAPSHOT-jar-with-dependencies.jar" />
-        <item itemvalue="JAR Application.jenkinstest-1.0-SNAPSHOT.jar" />
       </list>
     </recent_temporary>
   </component>
@@ -437,12 +473,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="hellotest - 2019.03.26 at 13h 36m 49s.xml">
-      <configuration name="hellotest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="hellotest - 2019.03.26 at 13h 36m 56s.xml">
-      <configuration name="hellotest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="hellotest_testHelloMain - 2019.03.26 at 13h 37m 05s.xml">
       <configuration name="hellotest.testHelloMain" configurationId="JUnit" />
     </history-entry>
@@ -467,6 +497,12 @@
     <history-entry file="hellotest - 2019.03.26 at 15h 01m 03s.xml">
       <configuration name="hellotest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="hellotest_sampleTest - 2019.03.27 at 14h 34m 35s.xml">
+      <configuration name="hellotest.sampleTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="hellotest_sampleTest - 2019.03.27 at 14h 34m 41s.xml">
+      <configuration name="hellotest.sampleTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -478,9 +514,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="23" width="1440" height="800" extended-state="6" />
+    <frame x="27" y="23" width="1440" height="800" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.25679544" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -489,14 +526,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32909605" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32909605" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997175" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="SBT Console" order="8" weight="0.32909605" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25282487" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.25282487" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32909605" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -506,7 +543,7 @@
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
-      <window_info anchor="right" id="Maven Projects" order="7" weight="0.3297568" />
+      <window_info anchor="right" id="Maven Projects" order="7" visible="true" weight="0.3297568" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
@@ -541,20 +578,6 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/test/java/hellotest.java</url>
-          <line>27</line>
-          <properties class="hellotest" method="testHelloMainPrintsSecretWithSecret">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
@@ -581,16 +604,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jenkinstest.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hellotest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/helloworld.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="42" column="32" selection-start-line="42" selection-start-column="32" selection-end-line="42" selection-end-column="32" />
+        <state relative-caret-position="150">
+          <caret line="10" column="40" selection-start-line="7" selection-start-column="7" selection-end-line="10" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="26" column="43" selection-start-line="26" selection-start-column="43" selection-end-line="26" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/helloTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jenkinstest.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/helloTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#612#613#0" expanded="true" />
@@ -599,24 +648,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/helloworld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="40" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Jenkinsfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        <state relative-caret-position="232">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <marker date="1553717934603" expanded="true" signature="445:2043" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -713,7 +751,21 @@
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="$PROJECT_DIR$" />
+    <option value="clean test" />
+    <option value="test" />
+    <option value="-Dtest=* test" />
     <option value="clean package" />
+    <option value="-Dtest=hellotest test" />
+    <option value="-DTest=hellotest clean test" />
+    <option value="-DTest=hellotests test" />
+    <option value="-DTest=hellotest test" />
+    <option value="-DTest=*.* test" />
+    <option value="-DTest=* test" />
+    <option value="-DTest=*" />
+    <option value="-DTest=.* test" />
+    <option value="-Dtest=hellotest" />
+    <option value="clean install test" />
+    <option value="surefire:test" />
     <option value="clean install" />
     <option value="clean build" />
   </component>
