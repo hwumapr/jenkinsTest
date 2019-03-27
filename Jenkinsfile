@@ -27,5 +27,9 @@ pipeline {
               archiveArtifacts artifacts: 'target/*.jar', fingerprint: true
               junit 'target/surefire-reports/*.xml'
           }
+
+          success {
+               echo "success"
+          }
       }
  }
