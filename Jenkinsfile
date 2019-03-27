@@ -30,6 +30,10 @@ pipeline {
 
           success {
                echo "success"
+
+               slackSend channel: '#jenkinstest',
+                                 color: 'good',
+                                 message: "The pipeline ${currentBuild.fullDisplayName} completed successfully."
           }
       }
  }
